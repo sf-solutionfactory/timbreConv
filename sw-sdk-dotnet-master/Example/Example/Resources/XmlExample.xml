@@ -1,0 +1,92 @@
+{
+    "Version": "3.3",
+    "Serie": "A",
+    "Folio": "123",
+    "Fecha": "2019-09-10T10:42:56",
+    "FormaPago": "PUE",
+    "SubTotal": "200.00",
+    "Descuento": "0.00",
+    "Moneda": "MXN",
+    "Total": "232.00",
+    "TipoDeComprobante": "I",
+    "MetodoPago": "99",
+    "LugarExpedicion": "45400",
+    "CfdiRelacionados": {
+        "TipoRelacion": "01",
+        "CfdiRelacionado": [
+            {
+                "UUID": "bac98b90-3bcb-451f-bf1f-2c7b259ec74c"
+            }
+        ]
+    },
+    "Emisor": {
+        "Rfc": "LAN7008173R5",
+        "Nombre": "Nombre",
+        "RegimenFiscal": "601"
+    },
+    "Receptor": {
+        "Rfc": "VAAM130719H60",
+        "Nombre": "Empleado",
+        "UsoCFDI": "P01"
+    },
+    "Conceptos": [
+        {
+            "ClaveProdServ": "50211503",
+            "Cantidad": 1,
+            "ClaveUnidad": "H87",
+            "Descripcion": "Cigarros",
+            "ValorUnitario": "200.00",
+            "Importe": "200.00",
+            "Descuento": "0.00",
+            "Impuestos": {
+                "Traslados": [
+                    {
+                        "Base": "200.00",
+                        "Impuesto": "002",
+                        "TipoFactor": "Tasa",
+                        "TasaOCuota": "0.160000",
+                        "Importe": "32.00"
+                    }
+                ]
+            },
+            "InformacionAduanera": [
+                {
+                    "NumeroPedimento": "19  02  1656  9123456"
+                },
+                {
+                    "NumeroPedimento": "19  02  1656  9123456"
+                }
+            ],
+            "CuentaPredial": {
+                "Numero": "1234657894236"
+            },
+            "Parte": [
+                {
+                    "ClaveProdServ": "50211503",
+                    "NoIdentificacion": "X111",
+                    "Cantidad": 1,
+                    "Unidad": "Pieza",
+                    "Descripcion": "Parte 1",
+                    "ValorUnitario": "1.00",
+                    "Importe": "1.00",
+                    "InformacionAduanera": [
+                        {
+                            "NumeroPedimento": "19  16  1562  9123456"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Impuestos": {
+        "TotalImpuestosTrasladados": "32.00",
+        "Traslados": [
+            {
+                "Impuesto": "002",
+                "TipoFactor": "Tasa",
+                "TasaOCuota": "0.160000",
+                "Importe": "32.00"
+            }
+        ]
+    }
+}

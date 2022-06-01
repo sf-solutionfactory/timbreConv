@@ -1,0 +1,16 @@
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\obj\Debug\ZWSSMART4.csproj.AssemblyReference.cache
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\obj\Debug\ZWSSMART4.csproj.CoreCompileInputs.cache
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\bin\Debug\ZWSSMART4.dll.config
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\bin\Debug\ZWSSMART4.dll
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\bin\Debug\ZWSSMART4.pdb
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\bin\Debug\SW-sdk.dll
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\bin\Debug\SAT.Services.dll
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\bin\Debug\Newtonsoft.Json.dll
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\bin\Debug\SW-sdk.pdb
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\bin\Debug\SW-sdk.dll.config
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\bin\Debug\SAT.Services.pdb
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\bin\Debug\SAT.Services.dll.config
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\bin\Debug\Newtonsoft.Json.xml
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\obj\Debug\ZWSSMART4.csproj.CopyComplete
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\obj\Debug\ZWSSMART4.dll
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\ZWSSMART4\obj\Debug\ZWSSMART4.pdb

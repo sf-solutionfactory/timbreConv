@@ -1,0 +1,6 @@
+
+xsltcv35.exe cadenaoriginal_3_3.xslt /out:../lib/net35/cadenaoriginal33.dll
+
+xsltcv40.exe cadenaoriginal_3_3.xslt /out:../lib/net40/cadenaoriginal33.dll /version:1.0.5
+
+

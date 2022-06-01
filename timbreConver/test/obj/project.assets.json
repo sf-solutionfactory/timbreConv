@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SAT.Services/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SAT.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SAT.Services.dll": {}
+        }
+      },
+      "SW-sdk/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "SAT.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SW-sdk.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SW-sdk.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "SAT.Services/1.0.0": {
+      "type": "project",
+      "path": "../../sw-sdk-dotnet-master/SAT.Services/SAT.Services.csproj",
+      "msbuildProject": "../../sw-sdk-dotnet-master/SAT.Services/SAT.Services.csproj"
+    },
+    "SW-sdk/1.0.0": {
+      "type": "project",
+      "path": "../../sw-sdk-dotnet-master/SW-sdk/SW-sdk.csproj",
+      "msbuildProject": "../../sw-sdk-dotnet-master/SW-sdk/SW-sdk.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Newtonsoft.Json >= 13.0.1",
+      "SW-sdk >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rogel\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\timbreConver\\test\\test.csproj",
+      "projectName": "test",
+      "projectPath": "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\timbreConver\\test\\test.csproj",
+      "packagesPath": "C:\\Users\\rogel\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\timbreConver\\test\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\rogel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\sw-sdk-dotnet-master\\SW-sdk\\SW-sdk.csproj": {
+              "projectPath": "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\sw-sdk-dotnet-master\\SW-sdk\\SW-sdk.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18D79B1D-DDE7-4AC1-A6D9-6CB6B405C411}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SW</RootNamespace>
+    <AssemblyName>SW-sdk-45</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="cadenaoriginal33, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\cadenaoriginal33.dll.1.4.3\lib\net40\cadenaoriginal33.dll</HintPath>
+    </Reference>
+    <Reference Include="cadenaoriginal40, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\cadenaoriginal40.dll.0.0.2\lib\net40\cadenaoriginal40.dll</HintPath>
+    </Reference>
+    <Reference Include="cadenaoriginalretenciones20, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\cadenaoriginalRetenciones20.dll.1.0.1\lib\cadenaoriginalretenciones20.dll</HintPath>
+    </Reference>
+    <Reference Include="cadenaoriginalTFD11, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\cadenaoriginalTFD11.dll.1.0.5\lib\net40\cadenaoriginalTFD11.dll</HintPath>
+    </Reference>
+    <Reference Include="Gma.QrCodeNet.Encoding, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Gma.QrCodeNet.0.4.1.2\lib\net40\Gma.QrCodeNet.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SW.Tools, Version=1.0.3.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SW.Tools.1.0.3.1-rc\lib\net45\SW.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\IResponseHandler.cs" />
+    <Compile Include="Helpers\DowloadFile.cs" />
+    <Compile Include="Helpers\EnumAcceptReject.cs" />
+    <Compile Include="Helpers\RequestHelper.cs" />
+    <Compile Include="Helpers\ResponseHelper.cs" />
+    <Compile Include="Helpers\ResponseType.cs" />
+    <Compile Include="Helpers\StreamUtil.cs" />
+    <Compile Include="Helpers\Validation.cs" />
+    <Compile Include="Helpers\XmlUtils.cs" />
+    <Compile Include="Services\AcceptReject\AcceptReject.cs" />
+    <Compile Include="Services\AcceptReject\AcceptRejectRequestCSD.cs" />
+    <Compile Include="Services\AcceptReject\AcceptRejectRequestPFX.cs" />
+    <Compile Include="Services\AcceptReject\AcceptRejectResponse.cs" />
+    <Compile Include="Services\AcceptReject\AcceptRejectResponseHandler.cs" />
+    <Compile Include="Services\AcceptReject\AcceptRejectService.cs" />
+    <Compile Include="Services\Account\Account.cs" />
+    <Compile Include="Services\Account\AccountResponse.cs" />
+    <Compile Include="Services\Account\AccountResponseHandler.cs" />
+    <Compile Include="Services\Account\AccountService.cs" />
+    <Compile Include="Services\Authentication\Authentication.cs" />
+    <Compile Include="Services\Authentication\AuthenticationResponseHandler.cs" />
+    <Compile Include="Services\Authentication\AuthenticationService.cs" />
+    <Compile Include="Services\Authentication\AuthenticationValidation.cs" />
+    <Compile Include="Services\Authentication\AuthResponse.cs" />
+    <Compile Include="Helpers\ServicesException.cs" />
+    <Compile Include="Services\Cancelation\Cancelation.cs" />
+    <Compile Include="Services\Cancelation\CancelationRequestCSD.cs" />
+    <Compile Include="Services\Cancelation\CancelationRequestPFX.cs" />
+    <Compile Include="Services\Cancelation\CancelationResponse.cs" />
+    <Compile Include="Services\Cancelation\CancelationService.cs" />
+    <Compile Include="Services\Cancelation\CancelationValidation.cs" />
+    <Compile Include="Entities\Response.cs" />
+    <Compile Include="Services\Cancelation\CanelationResponseHandler.cs" />
+    <Compile Include="Services\Csd\UploadCsdRequest.cs" />
+    <Compile Include="Services\Csd\CsdResponse.cs" />
+    <Compile Include="Services\Csd\CsdUtils.cs" />
+    <Compile Include="Services\Csd\CsdResponseHandler.cs" />
+    <Compile Include="Services\Csd\CsdService.cs" />
+    <Compile Include="Services\Issue\BaseJson.cs" />
+    <Compile Include="Services\Issue\IssueJson.cs" />
+    <Compile Include="Services\Issue\IssueService.cs" />
+    <Compile Include="Services\Issue\IssueV2.cs" />
+    <Compile Include="Services\Issue\Issue.cs" />
+    <Compile Include="Services\Pdf\BasePdf.cs" />
+    <Compile Include="Services\Pdf\Pdf.cs" />
+    <Compile Include="Services\Pdf\PdfResponse.cs" />
+    <Compile Include="Services\Pdf\PdfResponseHandler.cs" />
+    <Compile Include="Services\Pdf\PdfService.cs" />
+    <Compile Include="Services\Pendings\Pendings.cs" />
+    <Compile Include="Services\Pendings\PendingsResponse.cs" />
+    <Compile Include="Services\Pendings\PendingsResponseHandler.cs" />
+    <Compile Include="Services\Pendings\PendingsService.cs" />
+    <Compile Include="Services\Relations\Relations.cs" />
+    <Compile Include="Services\Relations\RelationsRequestCSD.cs" />
+    <Compile Include="Services\Relations\RelationsRequestPFX.cs" />
+    <Compile Include="Services\Relations\RelationsResponse.cs" />
+    <Compile Include="Services\Relations\RelationsResponseHandler.cs" />
+    <Compile Include="Services\Relations\RelationsService.cs" />
+    <Compile Include="Services\ResponseHandler.cs" />
+    <Compile Include="Services\Services.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Stamp\BaseStampV2.cs" />
+    <Compile Include="Services\Stamp\BaseStamp.cs" />
+    <Compile Include="Services\Stamp\BaseStampV4.cs" />
+    <Compile Include="Services\Stamp\BaseStampV4XML.cs" />
+    <Compile Include="Services\Stamp\StampServiceV4.cs" />
+    <Compile Include="Services\Stamp\StampV2.cs" />
+    <Compile Include="Services\Stamp\Stamp.cs" />
+    <Compile Include="Services\Stamp\StampResponse.cs" />
+    <Compile Include="Services\Stamp\StampResponseHandler.cs" />
+    <Compile Include="Services\Stamp\StampService.cs" />
+    <Compile Include="Helpers\StampTypes.cs" />
+    <Compile Include="Services\Stamp\StampV4.cs" />
+    <Compile Include="Services\Stamp\StampV4XML.cs" />
+    <Compile Include="Services\Stamp\StampValidation.cs" />
+    <Compile Include="Services\Status\Status.cs" />
+    <Compile Include="Services\Status\StatusService.cs" />
+    <Compile Include="Services\Storage\Storage.cs" />
+    <Compile Include="Services\Storage\StorageResponse.cs" />
+    <Compile Include="Services\Storage\StorageResponseHandler.cs" />
+    <Compile Include="Services\Storage\StorageService.cs" />
+    <Compile Include="Services\Taxpayer\Taxpayer.cs" />
+    <Compile Include="Services\Taxpayer\TaxpayerResponse.cs" />
+    <Compile Include="Services\Taxpayer\TaxpayerResponseHandler.cs" />
+    <Compile Include="Services\Taxpayer\TaxpayerService.cs" />
+    <Compile Include="Services\Validate\BaseValidate.cs" />
+    <Compile Include="Services\Validate\Validate.cs" />
+    <Compile Include="Services\Validate\ValidateResponse.cs" />
+    <Compile Include="Services\Validate\ValidateResponseHandler.cs" />
+    <Compile Include="Services\Validate\ValidateService.cs" />
+    <Compile Include="Services\Validate\ValidateValidation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAT.Services\SAT.Services.csproj">
+      <Project>{58728355-476d-4f26-84db-e8cc0e2c51a1}</Project>
+      <Name>SAT.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

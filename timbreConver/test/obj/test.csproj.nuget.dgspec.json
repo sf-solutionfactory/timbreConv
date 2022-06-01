@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\timbreConver\\test\\test.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\sw-sdk-dotnet-master\\SAT.Services\\SAT.Services.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\sw-sdk-dotnet-master\\SAT.Services\\SAT.Services.csproj",
+        "projectName": "SAT.Services",
+        "projectPath": "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\sw-sdk-dotnet-master\\SAT.Services\\SAT.Services.csproj",
+        "frameworks": {
+          "net35": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net35": {}
+      }
+    },
+    "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\sw-sdk-dotnet-master\\SW-sdk\\SW-sdk.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\sw-sdk-dotnet-master\\SW-sdk\\SW-sdk.csproj",
+        "projectName": "SW-sdk",
+        "projectPath": "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\sw-sdk-dotnet-master\\SW-sdk\\SW-sdk.csproj",
+        "frameworks": {
+          "net35-client": {
+            "projectReferences": {
+              "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\sw-sdk-dotnet-master\\SAT.Services\\SAT.Services.csproj": {
+                "projectPath": "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\sw-sdk-dotnet-master\\SAT.Services\\SAT.Services.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net35-client": {}
+      }
+    },
+    "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\timbreConver\\test\\test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\timbreConver\\test\\test.csproj",
+        "projectName": "test",
+        "projectPath": "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\timbreConver\\test\\test.csproj",
+        "packagesPath": "C:\\Users\\rogel\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\timbreConver\\test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rogel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\sw-sdk-dotnet-master\\SW-sdk\\SW-sdk.csproj": {
+                "projectPath": "D:\\Users\\rogel\\Documents\\GitHub\\timbreConv\\sw-sdk-dotnet-master\\SW-sdk\\SW-sdk.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+<%@ ServiceHost Service="ZWSSMART4.Service1" %>

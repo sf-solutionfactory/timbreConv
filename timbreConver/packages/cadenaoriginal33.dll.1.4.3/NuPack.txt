@@ -1,0 +1,4 @@
+﻿nuget spec cadenaoriginal33.dll
+nuget pack cadenaoriginal33.dll.nuspec
+
+nuget push cadenaoriginal33.dll.1.0.1.nupkg 619b4092-7daf-4253-9da9-6c93a872b382
