@@ -45,10 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CONSUM_WS4.cs" />
-    <Compile Include="IService1.cs" />
+    <Compile Include="IServiceTimbra4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RESULT.cs" />
-    <Compile Include="Service1.cs" />
+    <Compile Include="ServiceTimbra4.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

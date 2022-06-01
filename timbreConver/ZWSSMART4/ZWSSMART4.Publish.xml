@@ -1,18 +1,18 @@
 <publishData>
   <publishTarget publishUrl="C:\inetpub\wwwroot\test001\v4\">
-    <file relUrl="bin/SAT.Services.pdb" publishTime="06/01/2022 11:32:27" />
-    <file relUrl="bin/ZWSSMART4.dll.config" publishTime="06/01/2022 10:58:46" />
-    <file relUrl="ZWSSMART4.Service1.svc" publishTime="06/01/2022 13:28:09" />
-    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="03/17/2021 13:58:12" />
-    <file relUrl="bin/SW-sdk.dll" publishTime="06/01/2022 11:32:30" />
-    <file relUrl="bin/SW-sdk.pdb" publishTime="06/01/2022 11:32:30" />
-    <file relUrl="bin/SAT.Services.dll.config" publishTime="03/17/2022 23:12:09" />
-    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="03/17/2021 14:03:34" />
-    <file relUrl="bin/SAT.Services.dll" publishTime="06/01/2022 11:32:27" />
-    <file relUrl="bin/SW-sdk.dll.config" publishTime="03/17/2022 23:12:09" />
     <file relUrl="Web.config" publishTime="06/01/2022 10:58:46" />
-    <file relUrl="bin/ZWSSMART4.dll" publishTime="06/01/2022 13:28:05" />
-    <file relUrl="bin/ZWSSMART4.pdb" publishTime="06/01/2022 13:28:05" />
+    <file relUrl="ZWSSMART4.ServiceTimbra4.svc" publishTime="06/01/2022 14:47:35" />
+    <file relUrl="bin/ZWSSMART4.dll.config" publishTime="06/01/2022 10:58:46" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="03/17/2021 13:58:12" />
+    <file relUrl="bin/SW-sdk.dll" publishTime="06/01/2022 14:47:07" />
+    <file relUrl="bin/SW-sdk.pdb" publishTime="06/01/2022 14:47:07" />
+    <file relUrl="bin/SAT.Services.dll.config" publishTime="03/17/2022 23:12:09" />
+    <file relUrl="bin/SAT.Services.pdb" publishTime="06/01/2022 14:47:06" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="03/17/2021 14:03:34" />
+    <file relUrl="bin/SAT.Services.dll" publishTime="06/01/2022 14:47:06" />
+    <file relUrl="bin/SW-sdk.dll.config" publishTime="03/17/2022 23:12:09" />
+    <file relUrl="bin/ZWSSMART4.dll" publishTime="06/01/2022 14:47:13" />
+    <file relUrl="bin/ZWSSMART4.pdb" publishTime="06/01/2022 14:47:13" />
   </publishTarget>
   <publishTarget publishUrl="C:\inetpub\wwwroot\test001\">
     <file relUrl="Web.config" publishTime="06/01/2022 10:58:46" />

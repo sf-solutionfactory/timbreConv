@@ -1,1 +1,1 @@
-<%@ ServiceHost Service="ZWSSMART4.Service1" %>
+<%@ ServiceHost Service="ZWSSMART4.ServiceTimbra4" %>
