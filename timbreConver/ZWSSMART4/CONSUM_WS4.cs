@@ -75,7 +75,7 @@ namespace ZWSSMART4
                 case "s":
                     return result;
                 case "8":
-                    result = CONSUM_WS4.CancelarCSD(_url, _user, _password, uuid, rfc, passKey, name_key, name_cer, motivo, folioSustitucion);//ADD SF RSG 01.06.2022)
+                    result = CONSUM_WS4.CancelarCSD(_syst, _url, _user, _password, uuid, rfc, passKey, name_key, name_cer, motivo, folioSustitucion);//ADD SF RSG 01.06.2022)
                     goto case "6";
                 default:
                     result.List_res.Add("ERROR-WS");
@@ -264,6 +264,7 @@ namespace ZWSSMART4
         }
 
         private static RESULT CancelarCSD(
+          string _syst,
           string _url,
           string _user,
           string _password,
@@ -280,8 +281,16 @@ namespace ZWSSMART4
             byte[] inArray2 = new byte[0];
             try
             {
-                inArray1 = File.ReadAllBytes(Path.Combine("C:\\inetpub\\wwwroot\\WSSMART\\CER_KEY", name_key));
-                inArray2 = File.ReadAllBytes(Path.Combine("C:\\inetpub\\wwwroot\\WSSMART\\CER_KEY", name_cer));
+                if (_syst == "P")
+                {
+                    inArray1 = File.ReadAllBytes(Path.Combine("C:\\inetpub\\wwwroot\\WSSMART\\CER_KEY", name_key));
+                    inArray2 = File.ReadAllBytes(Path.Combine("C:\\inetpub\\wwwroot\\WSSMART\\CER_KEY", name_cer));
+                }
+                else
+                {
+                    inArray1 = File.ReadAllBytes(Path.Combine("C:\\inetpub\\wwwroot\\WSSMARTTST\\CER_KEY", name_key));
+                    inArray2 = File.ReadAllBytes(Path.Combine("C:\\inetpub\\wwwroot\\WSSMARTTST\\CER_KEY", name_cer));
+                }
             }
             catch (Exception ex)
             {

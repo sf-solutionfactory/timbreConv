@@ -4,9 +4,9 @@ D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\test\bin\Debug\netcoreap
 D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\test\bin\Debug\netcoreapp3.1\test.runtimeconfig.dev.json
 D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\test\bin\Debug\netcoreapp3.1\test.dll
 D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\test\bin\Debug\netcoreapp3.1\test.pdb
+D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\test\bin\Debug\netcoreapp3.1\SAT.Services.dll
 D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\test\bin\Debug\netcoreapp3.1\SW-sdk.dll
-D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\test\bin\Debug\netcoreapp3.1\SW-sdk.pdb
 D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\test\bin\Debug\netcoreapp3.1\SW-sdk.dll.config
 D:\Users\rogel\Documents\GitHub\timbreConv\timbreConver\test\bin\Debug\netcoreapp3.1\SAT.Services.pdb
